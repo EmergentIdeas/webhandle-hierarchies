@@ -1,0 +1,9 @@
+
+<input name="hierarchyFields" type="hidden" />
+<div class="ei-css-grid">
+	<label class="xs12" class="name-label">
+		Name
+		<input name="name" type="text" />
+	</label>
+
+</div>

@@ -1,0 +1,10 @@
+<form class="ei-form ei-css-grid">
+	<label class="xs12">
+		Label
+		<input name="label" type="text" required />
+	</label>
+	<label class="xs12">
+		Web safe name (only lower case letters, numbers, and dashes)
+		<input name="name" type="text" class="file-url-safe-characters-only" required pattern="[a-z0-9-]+" />
+	</label>
+</form>

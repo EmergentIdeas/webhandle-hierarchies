@@ -1,0 +1,16 @@
+<div class="hierarchy-tree-frame">
+	<div class="actions">
+		<button class="create-node" title="create">
+			<span class="material-icons">add_circle</span>
+		</button>
+		<button class="remove-node" title="remove">
+			<span class="material-icons">remove_circle</span>
+		</button>
+	</div>
+	<div class="hierarchies-tree" id="kalpa-tree">
+
+	</div>
+	<div class="item-details">
+		
+	</div>
+</div>

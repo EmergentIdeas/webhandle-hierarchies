@@ -1,0 +1,6 @@
+__::start__
+<div class="page page-landing">
+	__this::json__
+	__({hierarchy: this.hierarchies[0], name: 'name1'})::@webhandle/hierarchies/groupChecksBox__
+</div>
+__::end__

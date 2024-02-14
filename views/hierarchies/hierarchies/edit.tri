@@ -1,0 +1,12 @@
+
+__::$pretemplate__
+<h1>Edit Hierarchy</h1>
+<form method="post" action="__dreck.editUrl__" class="hierarchies-fields-form ei-form">
+__::./fields__
+<button type="submit">Save</button>
+</form>
+<div class="hierarchies-tree-holder" >
+</div>
+
+
+__::$posttemplate__
