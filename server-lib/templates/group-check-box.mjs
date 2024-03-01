@@ -31,7 +31,7 @@ export default function groupCheckBox(data) {
 		}
 	}
 
-	result + `</div>`
+	result += `</div>`
 	return result
 }
 
