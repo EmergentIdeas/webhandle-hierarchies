@@ -1,6 +1,6 @@
 {
 	"name": "@webhandle/hierarchies",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
 	"main": "server-lib/hierarchies-integrator.mjs",
 	"browser": "client-lib/hierarchies-integrator.mjs",

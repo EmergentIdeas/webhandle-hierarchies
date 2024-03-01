@@ -9,7 +9,6 @@ import filog from 'filter-log'
 let log = filog('hierarchies-integrator:')
 
 import HierarchiesDataService from './hierarchies-data-service.mjs'
-import integrator from 'webhandle-users'
 import groupCheckBox from './templates/group-check-box.mjs'
 
 let templatesAdded = false
@@ -66,7 +65,9 @@ export default function integrate(dbName, options) {
 
 		// add templates directory
 		if (opt.templateDir) {
-			webhandle.addTemplateDir(path.join(webhandle.projectRoot, opt.templateDir))
+			webhandle.addTemplateDir(path.join(webhandle.projectRoot, opt.templateDir), {
+				immutable: true
+			})
 		}
 
 		webhandle.templateLoaders.push((name, callback) => {
@@ -77,5 +78,5 @@ export default function integrate(dbName, options) {
 	}
 }
 
-integrator.templates = templates
+integrate.templates = templates
 
